@@ -42,6 +42,7 @@ ACCEPTABLE_CITIES = {
 }
 
 PRODUCT_COMPANIES = {
+    "Adobe",
     "Swiggy",
     "Zomato",
     "Razorpay",
@@ -52,6 +53,7 @@ PRODUCT_COMPANIES = {
     "Nykaa",
     "Zoho",
     "Freshworks",
+    "Genpact AI",
     "Ola",
     "Paytm",
     "PhonePe",
@@ -64,6 +66,7 @@ PRODUCT_COMPANIES = {
     "Sarvam AI",
     "Krutrim",
     "Haptik",
+    "Locobuzz",
     "Observe.AI",
     "Rephrase.ai",
     "Mad Street Den",
@@ -75,8 +78,13 @@ PRODUCT_COMPANIES = {
     "Meta",
     "Microsoft",
     "Netflix",
+    "Salesforce",
     "Yellow.ai",
     "Aganitha",
+    "Uber",
+    "Verloop.io",
+    "Wysa",
+    "Apple",
 }
 
 PRODUCT_INDUSTRIES = {
@@ -84,16 +92,22 @@ PRODUCT_INDUSTRIES = {
     "SaaS",
     "AI/ML",
     "AI Services",
+    "Consumer Electronics",
     "HealthTech AI",
+    "HealthTech",
     "Conversational AI",
     "Fintech",
     "Food Delivery",
     "E-commerce",
     "AdTech",
+    "Insurance Tech",
     "Marketplace",
     "Gaming",
     "EdTech",
     "Internet",
+    "Media",
+    "Transportation",
+    "Voice AI",
 }
 
 SERVICES_COMPANIES = {
@@ -608,10 +622,22 @@ def score_penalties(
     facts["experience_duration_mismatch_years"] = round(mismatch, 2)
     if mismatch > 5.0:
         flags.append("experience_duration_mismatch_gt5")
-        penalty += 11.0
+        penalty += 90.0
     elif mismatch > 3.0:
         flags.append("experience_duration_mismatch_gt3")
-        penalty += 6.0
+        penalty += 28.0
+
+    behavior = facts.get("behavior", {})
+    inactive_days = behavior.get("inactive_days")
+    response_rate = float(behavior.get("response_rate") or 0.0)
+    if (
+        not behavior.get("open_to_work")
+        and inactive_days is not None
+        and inactive_days > 180
+        and response_rate < 0.2
+    ):
+        flags.append("hard_unavailable")
+        penalty += 35.0
 
     if title in NON_TECH_TITLES and core_count >= 6:
         flags.append("non_tech_keyword_stuffer")

@@ -2,6 +2,26 @@
   "reasoning_non_empty": true,
   "risk_candidates": [
     {
+      "candidate_id": "CAND_0094759",
+      "components": {
+        "behavior": 11.6683,
+        "behavior_multiplier": 1.0029,
+        "company": 17.0,
+        "dense": 0.0,
+        "education": 0.6,
+        "evidence": 38.7,
+        "experience": 10.3821,
+        "location": 11.0,
+        "penalty": 0.0,
+        "role": 31.0,
+        "skills": 25.2824
+      },
+      "flags": [
+        "low_recruiter_response"
+      ],
+      "rank": 26
+    },
+    {
       "candidate_id": "CAND_0028793",
       "components": {
         "behavior": 23.29,
@@ -19,7 +39,7 @@
       "flags": [
         "long_notice"
       ],
-      "rank": 27
+      "rank": 29
     },
     {
       "candidate_id": "CAND_0033861",
@@ -39,34 +59,14 @@
       "flags": [
         "low_recruiter_response"
       ],
-      "rank": 28
-    },
-    {
-      "candidate_id": "CAND_0039754",
-      "components": {
-        "behavior": 33.0,
-        "behavior_multiplier": 1.105,
-        "company": 12.8,
-        "dense": 0.0,
-        "education": 2.0,
-        "evidence": 38.7,
-        "experience": -5.88,
-        "location": 9.5,
-        "penalty": 11.0,
-        "role": 27.0,
-        "skills": 24.9895
-      },
-      "flags": [
-        "experience_duration_mismatch_gt5"
-      ],
-      "rank": 33
+      "rank": 30
     },
     {
       "candidate_id": "CAND_0083307",
       "components": {
         "behavior": 18.4433,
         "behavior_multiplier": 1.0453,
-        "company": 15.0,
+        "company": 17.0,
         "dense": 0.0,
         "education": 1.6,
         "evidence": 27.4,
@@ -79,34 +79,34 @@
       "flags": [
         "long_notice"
       ],
-      "rank": 35
+      "rank": 31
     },
     {
-      "candidate_id": "CAND_0094759",
+      "candidate_id": "CAND_0070398",
       "components": {
-        "behavior": 11.6683,
-        "behavior_multiplier": 1.0029,
-        "company": 10.6,
+        "behavior": 19.305,
+        "behavior_multiplier": 1.0507,
+        "company": 17.0,
         "dense": 0.0,
-        "education": 0.6,
-        "evidence": 38.7,
-        "experience": 10.3821,
-        "location": 11.0,
+        "education": 3.0,
+        "evidence": 16.9,
+        "experience": 16.8607,
+        "location": 9.5,
         "penalty": 0.0,
-        "role": 31.0,
-        "skills": 25.2824
+        "role": 24.65,
+        "skills": 29.1356
       },
       "flags": [
-        "low_recruiter_response"
+        "long_notice"
       ],
-      "rank": 38
+      "rank": 37
     },
     {
       "candidate_id": "CAND_0086151",
       "components": {
         "behavior": 19.4,
         "behavior_multiplier": 1.0513,
-        "company": 15.0,
+        "company": 17.0,
         "dense": 0.0,
         "education": 0.5,
         "evidence": 21.7,
@@ -139,7 +139,7 @@
       "flags": [
         "long_notice"
       ],
-      "rank": 41
+      "rank": 45
     },
     {
       "candidate_id": "CAND_0007412",
@@ -160,34 +160,14 @@
         "long_notice",
         "short_tenure_hopping"
       ],
-      "rank": 42
-    },
-    {
-      "candidate_id": "CAND_0070398",
-      "components": {
-        "behavior": 19.305,
-        "behavior_multiplier": 1.0507,
-        "company": 10.6,
-        "dense": 0.0,
-        "education": 3.0,
-        "evidence": 16.9,
-        "experience": 16.8607,
-        "location": 9.5,
-        "penalty": 0.0,
-        "role": 24.65,
-        "skills": 29.1356
-      },
-      "flags": [
-        "long_notice"
-      ],
-      "rank": 48
+      "rank": 46
     },
     {
       "candidate_id": "CAND_0060072",
       "components": {
         "behavior": 9.7583,
         "behavior_multiplier": 0.991,
-        "company": 10.6,
+        "company": 12.8,
         "dense": 0.0,
         "education": 3.0,
         "evidence": 28.2,
@@ -200,35 +180,14 @@
       "flags": [
         "low_recruiter_response"
       ],
-      "rank": 60
-    },
-    {
-      "candidate_id": "CAND_0092278",
-      "components": {
-        "behavior": -0.085,
-        "behavior_multiplier": 0.9295,
-        "company": 15.0,
-        "dense": 0.0,
-        "education": 2.0,
-        "evidence": 39.2,
-        "experience": 16.8607,
-        "location": 13.0,
-        "penalty": 0.0,
-        "role": 29.5,
-        "skills": 24.6159
-      },
-      "flags": [
-        "long_inactive",
-        "low_recruiter_response"
-      ],
-      "rank": 67
+      "rank": 57
     },
     {
       "candidate_id": "CAND_0027801",
       "components": {
         "behavior": 18.73,
         "behavior_multiplier": 1.0471,
-        "company": 12.8,
+        "company": 17.0,
         "dense": 0.0,
         "education": 1.1,
         "evidence": 20.4,
@@ -241,14 +200,14 @@
       "flags": [
         "long_notice"
       ],
-      "rank": 82
+      "rank": 68
     },
     {
       "candidate_id": "CAND_0006557",
       "components": {
         "behavior": 18.6333,
         "behavior_multiplier": 1.0465,
-        "company": 8.4,
+        "company": 12.8,
         "dense": 0.0,
         "education": 1.6,
         "evidence": 17.2,
@@ -261,14 +220,14 @@
       "flags": [
         "long_notice"
       ],
-      "rank": 86
+      "rank": 74
     },
     {
       "candidate_id": "CAND_0016163",
       "components": {
         "behavior": 21.225,
         "behavior_multiplier": 1.0627,
-        "company": 15.0,
+        "company": 17.0,
         "dense": 0.0,
         "education": 1.1,
         "evidence": 14.2,
@@ -281,14 +240,14 @@
       "flags": [
         "long_notice"
       ],
-      "rank": 87
+      "rank": 82
     },
     {
       "candidate_id": "CAND_0009691",
       "components": {
         "behavior": 18.585,
         "behavior_multiplier": 1.0462,
-        "company": 12.8,
+        "company": 15.0,
         "dense": 0.0,
         "education": 0.6,
         "evidence": 16.9,
@@ -301,7 +260,27 @@
       "flags": [
         "long_notice"
       ],
-      "rank": 90
+      "rank": 84
+    },
+    {
+      "candidate_id": "CAND_0010257",
+      "components": {
+        "behavior": 23.54,
+        "behavior_multiplier": 1.0771,
+        "company": 17.0,
+        "dense": 0.0,
+        "education": 1.1,
+        "evidence": 8.9,
+        "experience": 16.1518,
+        "location": 13.0,
+        "penalty": 0.0,
+        "role": 20.65,
+        "skills": 17.326
+      },
+      "flags": [
+        "long_notice"
+      ],
+      "rank": 91
     },
     {
       "candidate_id": "CAND_0074225",
@@ -321,50 +300,48 @@
       "flags": [
         "long_notice"
       ],
-      "rank": 91
+      "rank": 92
     },
     {
-      "candidate_id": "CAND_0010257",
+      "candidate_id": "CAND_0089552",
       "components": {
-        "behavior": 23.54,
-        "behavior_multiplier": 1.0771,
-        "company": 15.0,
+        "behavior": 9.6767,
+        "behavior_multiplier": 0.9905,
+        "company": 12.8,
         "dense": 0.0,
         "education": 1.1,
-        "evidence": 8.9,
-        "experience": 16.1518,
-        "location": 13.0,
+        "evidence": 22.6,
+        "experience": 13.9032,
+        "location": 9.5,
         "penalty": 0.0,
-        "role": 20.65,
-        "skills": 17.326
+        "role": 24.65,
+        "skills": 29.8886
       },
       "flags": [
         "long_notice"
       ],
-      "rank": 99
+      "rank": 100
     }
   ],
-  "runtime_seconds": 15.997,
+  "runtime_seconds": 16.302,
   "scores_non_increasing": true,
   "stage1_candidates_reranked": 1500,
   "top100_component_averages": {
-    "behavior": 24.5359,
-    "behavior_multiplier": 1.0796,
-    "company": 13.884,
+    "behavior": 24.5593,
+    "behavior_multiplier": 1.0801,
+    "company": 15.362,
     "dense": 0.0,
-    "education": 1.873,
-    "evidence": 20.776,
-    "experience": 13.5013,
-    "location": 9.53,
-    "penalty": 0.15,
-    "role": 25.5615,
-    "skills": 21.2489
+    "education": 1.872,
+    "evidence": 20.373,
+    "experience": 13.6432,
+    "location": 9.36,
+    "penalty": 0.04,
+    "role": 25.482,
+    "skills": 21.2962
   },
   "top100_flag_counts": {
-    "experience_duration_mismatch_gt5": 1,
-    "long_inactive": 1,
-    "long_notice": 12,
-    "low_recruiter_response": 4,
+    "long_notice": 13,
+    "low_recruiter_response": 3,
     "short_tenure_hopping": 1
   },
   "top_rows": 100,
