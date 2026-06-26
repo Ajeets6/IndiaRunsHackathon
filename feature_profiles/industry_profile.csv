@@ -1,0 +1,25 @@
+industry,career_mentions,current_mentions,target_title_ratio,avg_evidence_score,avg_core_skills,product_likelihood_score,suggested_product_industry
+Media,13,6,1.4615,20.7737,8.7895,111.269,True
+Internet,45,22,1.4889,17.8075,7.7463,107.3527,True
+Consumer Electronics,8,2,1.25,22.7,8.9,103.67,True
+HealthTech AI,132,68,1.2652,9.586,5.125,81.7366,True
+AI Services,81,42,1.1728,10.1707,5.4065,78.2233,True
+AI/ML,597,278,1.1457,10.329,5.2583,76.9866,True
+Conversational AI,124,62,1.0887,9.5161,5.2903,72.9419,True
+Voice AI,68,31,0.9853,9.3818,5.1212,67.4344,True
+Transportation,364,162,0.1978,5.5787,2.9316,20.6034,True
+EdTech,1384,610,0.2139,4.9876,2.8791,20.4783,True
+Gaming,329,149,0.1945,5.1119,2.8619,19.6839,True
+Insurance Tech,355,155,0.1944,4.8708,2.8098,19.2723,True
+SaaS,690,328,0.1913,4.9538,2.7947,19.2317,True
+AdTech,376,172,0.1915,4.8462,2.8376,19.1138,True
+HealthTech,339,147,0.1799,4.7741,2.7613,18.3672,True
+E-commerce,3644,1529,0.0598,4.6404,1.7371,11.3415,True
+Fintech,6513,2808,0.0422,4.555,1.5676,10.1977,True
+Food Delivery,5902,2514,0.0237,4.4759,1.4395,9.0515,True
+Consulting,2871,1274,0.0,4.3404,1.331,7.5754,False
+IT Services,88077,29881,0.0032,2.8089,1.1329,5.2775,False
+Software,70746,22417,0.0006,2.3907,1.0766,4.4785,True
+Manufacturing,70541,22305,0.0,2.384,1.0715,4.4332,False
+Conglomerate,23556,7571,0.0,2.3747,1.0752,4.4222,False
+Paper Products,23416,7467,0.0,2.3695,1.0572,4.3999,False

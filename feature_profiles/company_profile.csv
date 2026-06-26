@@ -1,0 +1,64 @@
+company,career_mentions,current_mentions,product_industry_ratio,service_industry_ratio,target_title_ratio,evidence_ratio,avg_title_score,avg_evidence_score,avg_core_skills,product_likelihood_score,service_likelihood_score,suggested_product_company,suggested_service_company,top_career_industries,top_current_industries
+Meta,11,7,1.0,0.0,1.0,1.0,19.5455,18.7636,8.0909,119.9273,0.0,True,False,Internet:11,Internet:7
+LinkedIn,7,4,1.0,0.0,1.0,1.0,19.2857,18.3429,7.4286,119.0857,0.0,False,False,Internet:7,Internet:4
+Microsoft,10,5,1.0,0.0,1.0,1.0,18.1,17.13,8.2,118.28,0.0,True,False,Software:10,Software:5
+Google,14,6,1.0,0.0,1.0,1.0,18.0714,15.55,7.6429,117.8,0.0,True,False,Internet:14,Internet:6
+Adobe,10,2,1.0,0.0,1.0,1.0,18.4,16.81,7.1,117.76,0.0,True,False,Software:10,Software:2
+Salesforce,13,4,1.0,0.0,1.0,1.0,17.8462,19.4231,7.9231,117.7538,0.0,True,False,Software:13,Software:4
+Amazon,13,5,1.0,0.0,1.0,1.0,17.1538,21.5923,8.1538,117.1077,0.0,True,False,Internet:13,Internet:5
+Mad Street Den,65,29,1.0,0.0,0.8462,1.0,13.6923,11.5385,5.9385,107.3354,0.0,True,False,AI/ML:65,AI/ML:29
+Wysa,63,32,1.0,0.0,0.873,1.0,13.2698,10.2635,5.5079,107.1556,0.0,True,False,HealthTech AI:63,HealthTech AI:32
+Aganitha,69,37,1.0,0.0,0.8116,1.0,13.7971,12.0217,5.4348,106.1942,0.0,True,False,AI/ML:69,AI/ML:37
+Krutrim,64,32,1.0,0.0,0.8438,1.0,13.3125,9.1344,5.0781,106.1312,0.0,True,False,AI/ML:64,AI/ML:32
+Rephrase.ai,72,37,1.0,0.0,0.8194,1.0,13.1806,9.9319,5.2639,105.5139,0.0,True,False,AI/ML:72,AI/ML:37
+Niramai,69,36,1.0,0.0,0.8116,1.0,13.1159,9.5913,4.7971,104.8667,0.0,True,False,HealthTech AI:69,HealthTech AI:36
+Genpact AI,81,42,1.0,0.0,0.7778,1.0,13.3951,10.3556,5.3951,104.8346,0.0,True,False,AI Services:81,AI Services:42
+Glance,79,33,1.0,0.0,0.7722,1.0,13.4557,10.5456,5.4177,104.7848,0.0,True,False,AI/ML:79,AI/ML:33
+Yellow.ai,59,25,1.0,0.0,0.7627,1.0,13.1017,10.2932,5.5254,104.2102,0.0,True,False,AI/ML:59,AI/ML:25
+Observe.AI,64,21,1.0,0.0,0.7969,1.0,12.5938,10.9953,5.1562,104.1594,0.0,True,False,AI/ML:64,AI/ML:21
+Verloop.io,62,30,1.0,0.0,0.7419,1.0,12.4032,9.5806,5.3226,102.6903,0.0,True,False,Conversational AI:62,Conversational AI:30
+Sarvam AI,67,41,1.0,0.0,0.7313,1.0,12.7015,10.4075,4.8955,102.4418,0.0,True,False,AI/ML:67,AI/ML:41
+Haptik,62,32,1.0,0.0,0.7419,1.0,11.9032,9.5742,5.1129,101.9226,0.0,True,False,Conversational AI:62,Conversational AI:32
+Locobuzz,58,23,1.0,0.0,0.7069,1.0,12.3103,11.2362,4.931,101.3897,0.0,True,False,AI/ML:58,AI/ML:23
+upGrad,338,155,1.0,0.0,0.1568,1.0,7.8462,4.9817,2.858,80.6219,0.0,True,False,EdTech:338,EdTech:155
+Vedantu,350,163,1.0,0.0,0.1543,1.0,7.7186,5.3206,3.0229,80.5377,0.0,True,False,EdTech:350,EdTech:163
+Meesho,384,186,1.0,0.0,0.1458,1.0,7.8542,5.0396,2.8047,80.3146,0.0,True,False,E-commerce:384,E-commerce:186
+Paytm,343,161,1.0,0.0,0.1458,1.0,7.7711,5.2988,2.7784,80.1924,0.0,True,False,Fintech:343,Fintech:161
+Unacademy,341,135,1.0,0.0,0.1437,1.0,7.7229,4.9754,2.8592,80.1472,0.0,True,False,EdTech:341,EdTech:135
+Zoho,352,165,1.0,0.0,0.1335,1.0,7.6832,5.008,2.8295,79.8216,0.0,True,False,SaaS:352,SaaS:165
+BYJU'S,355,157,1.0,0.0,0.1408,1.0,7.5282,5.0023,2.8085,79.8017,0.0,True,False,EdTech:355,EdTech:157
+Dream11,329,149,1.0,0.0,0.1307,1.0,7.6854,5.1687,2.8723,79.7878,0.0,True,False,Gaming:329,Gaming:149
+InMobi,376,172,1.0,0.0,0.1356,1.0,7.5718,4.9838,2.8378,79.7473,0.0,True,False,AdTech:376,AdTech:172
+Freshworks,338,163,1.0,0.0,0.1183,1.0,7.6731,4.9506,2.784,79.3935,0.0,True,False,SaaS:338,SaaS:163
+Nykaa,378,172,1.0,0.0,0.119,1.0,7.4537,5.073,2.7989,79.1598,0.0,True,False,E-commerce:378,E-commerce:172
+PhonePe,336,144,1.0,0.0,0.0982,1.0,7.433,4.767,2.5446,78.4107,0.0,True,False,Fintech:336,Fintech:144
+Apple,8,2,0.0,0.0,1.0,1.0,18.75,23.5125,8.625,74.4,20.0,False,False,Consumer Electronics:8,Consumer Electronics:2
+Netflix,13,6,0.0,0.0,1.0,1.0,18.3077,19.9,8.4615,73.7385,20.0,True,False,Media:13,Media:6
+Uber,11,1,0.0,0.0,1.0,1.0,18.3636,21.7727,7.6364,73.1455,20.0,True,False,Transportation:11,Transportation:1
+CRED,2908,1257,1.0,0.0,0.0199,1.0,3.055,4.5826,1.4477,70.3228,0.0,True,False,Fintech:2908,Fintech:1257
+Swiggy,3019,1288,1.0,0.0,0.0172,1.0,3.0883,4.5525,1.418,70.271,0.0,True,False,Food Delivery:3019,Food Delivery:1288
+Flipkart,2882,1171,1.0,0.0,0.0191,1.0,3.0085,4.5977,1.4493,70.2468,0.0,True,False,E-commerce:2882,E-commerce:1171
+Razorpay,2926,1246,1.0,0.0,0.0181,1.0,3.0079,4.5539,1.4433,70.2169,0.0,True,False,Fintech:2926,Fintech:1246
+Zomato,2883,1226,1.0,0.0,0.016,1.0,2.9924,4.5069,1.4523,70.1516,0.0,True,False,Food Delivery:2883,Food Delivery:1226
+Saarthi.ai,68,31,0.0,0.0,0.6912,1.0,11.6176,9.6662,5.1765,55.3618,20.0,True,False,Voice AI:68,Voice AI:31
+Pied Piper,23614,7500,1.0,0.0,0.0,0.8124,-9.5414,2.4187,1.0906,50.6708,0.0,True,False,Software:23614,Software:7500
+Hooli,23509,7378,1.0,0.0,0.0,0.8151,-9.5904,2.4098,1.066,50.647,0.0,True,False,Software:23509,Software:7378
+Initech,23590,7528,1.0,0.0,0.0,0.8125,-9.578,2.3997,1.0503,50.5968,0.0,True,False,Software:23590,Software:7528
+PolicyBazaar,355,155,0.0,0.0,0.1408,1.0,7.6817,4.9966,2.8254,34.9994,20.0,True,False,Insurance Tech:355,Insurance Tech:155
+PharmEasy,339,147,0.0,0.0,0.1209,1.0,7.5133,4.7912,2.7286,34.2224,20.0,True,False,HealthTech:339,HealthTech:147
+Ola,353,161,0.0,0.0,0.1133,1.0,7.5907,5.2062,2.8074,34.1875,20.0,True,False,Transportation:353,Transportation:161
+Stark Industries,23524,7323,0.0,0.0,0.0,0.8146,-9.4672,2.4241,1.0741,5.791,20.0,False,False,Manufacturing:23524,Manufacturing:7323
+Globex Inc,23471,7492,0.0,0.0,0.0,0.8123,-9.5638,2.4042,1.0638,5.6209,20.0,False,False,Manufacturing:23471,Manufacturing:7492
+Acme Corp,23546,7490,0.0,0.0,0.0,0.813,-9.5798,2.405,1.0681,5.6197,20.0,False,False,Manufacturing:23546,Manufacturing:7490
+Wayne Enterprises,23556,7571,0.0,0.0,0.0,0.8139,-9.6159,2.4081,1.0724,5.5975,20.0,False,False,Conglomerate:23556,Conglomerate:7571
+Dunder Mifflin,23416,7467,0.0,0.0,0.0,0.8131,-9.5949,2.395,1.0534,5.5903,20.0,False,False,Paper Products:23416,Paper Products:7467
+Tech Mahindra,2837,1168,0.0,1.0,0.0134,1.0,2.9935,4.4719,1.411,-9.9442,90.0,False,True,IT Services:2837,IT Services:1168
+HCL,2894,1250,0.0,1.0,0.0131,1.0,2.9248,4.4779,1.4378,-10.0117,90.0,False,True,IT Services:2894,IT Services:1250
+Mphasis,2822,1153,0.0,1.0,0.0,1.0,2.8822,4.4266,1.3434,-10.4667,90.0,False,True,IT Services:2822,IT Services:1153
+Capgemini,2895,1265,0.0,1.0,0.0,1.0,2.866,4.4218,1.3434,-10.4861,90.0,False,True,IT Services:2895,IT Services:1265
+Mindtree,2879,1225,0.0,1.0,0.0,1.0,2.8367,4.4181,1.3251,-10.5358,90.0,False,True,IT Services:2879,IT Services:1225
+Cognizant,2863,1213,0.0,1.0,0.0,1.0,2.8171,4.4353,1.3426,-10.5453,90.0,False,True,IT Services:2863,IT Services:1213
+Accenture,2871,1274,0.0,1.0,0.0,1.0,2.8337,4.3836,1.3163,-10.5466,90.0,False,True,Consulting:2871,Consulting:1274
+Wipro,23682,7566,0.0,1.0,0.0018,0.8106,-9.4903,2.4292,1.1046,-29.2488,90.0,False,True,IT Services:23682,IT Services:7566
+Infosys,23722,7590,0.0,1.0,0.0014,0.8155,-9.5395,2.4116,1.0322,-29.2762,90.0,False,True,IT Services:23722,IT Services:7590
+TCS,23483,7451,0.0,1.0,0.0016,0.8119,-9.5239,2.4141,1.0585,-29.3052,90.0,False,True,IT Services:23483,IT Services:7451

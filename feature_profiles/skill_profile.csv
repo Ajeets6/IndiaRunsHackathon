@@ -1,0 +1,134 @@
+skill,count,is_core_ranker_skill,core_weight
+Information Retrieval,5135,True,4.0
+Semantic Search,5087,True,4.0
+Vector Search,5065,True,4.0
+Learning to Rank,1383,True,4.0
+Recommendation Systems,5091,True,3.8
+Embeddings,5080,True,3.8
+Sentence Transformers,5081,True,3.6
+FAISS,5052,True,3.4
+BM25,1382,True,3.3
+Pinecone,5062,True,3.0
+Weaviate,1389,True,3.0
+Milvus,1384,True,3.0
+Qdrant,1379,True,3.0
+Elasticsearch,1311,True,2.8
+OpenSearch,1286,True,2.8
+RAG,4995,True,2.7
+Fine-tuning LLMs,4920,True,2.7
+Python,1378,True,2.5
+LLMs,5094,True,2.4
+NLP,1358,True,2.4
+Machine Learning,1349,True,2.3
+Hugging Face Transformers,5163,True,2.2
+QLoRA,1401,True,2.0
+PEFT,1377,True,2.0
+LoRA,1371,True,2.0
+Feature Engineering,4809,True,1.6
+Data Pipelines,11905,True,1.3
+Spark,12038,True,1.1
+Airflow,12105,True,1.0
+HTML,12246,False,0.0
+Databricks,12244,False,0.0
+Redux,12222,False,0.0
+Terraform,12187,False,0.0
+Angular,12173,False,0.0
+Figma,12157,False,0.0
+Salesforce CRM,12157,False,0.0
+Vue.js,12142,False,0.0
+Sales,12138,False,0.0
+Accounting,12136,False,0.0
+Agile,12135,False,0.0
+Kafka,12114,False,0.0
+Excel,12109,False,0.0
+BigQuery,12108,False,0.0
+CI/CD,12108,False,0.0
+Project Management,12106,False,0.0
+AWS,12104,False,0.0
+Flask,12104,False,0.0
+Scrum,12083,False,0.0
+Illustrator,12072,False,0.0
+Kubernetes,12071,False,0.0
+ETL,12068,False,0.0
+CSS,12065,False,0.0
+Docker,12062,False,0.0
+Next.js,12058,False,0.0
+Apache Beam,12054,False,0.0
+Go,12049,False,0.0
+Java,12049,False,0.0
+TypeScript,12048,False,0.0
+JavaScript,12047,False,0.0
+dbt,12046,False,0.0
+REST APIs,12040,False,0.0
+Marketing,12037,False,0.0
+Tally,12030,False,0.0
+GraphQL,12027,False,0.0
+Snowflake,12027,False,0.0
+Webpack,12026,False,0.0
+Six Sigma,11991,False,0.0
+SEO,11990,False,0.0
+SAP,11989,False,0.0
+GCP,11983,False,0.0
+PostgreSQL,11983,False,0.0
+Rust,11960,False,0.0
+Apache Flink,11958,False,0.0
+gRPC,11957,False,0.0
+Content Writing,11948,False,0.0
+SQL,11935,False,0.0
+Hadoop,11931,False,0.0
+Redis,11928,False,0.0
+FastAPI,11917,False,0.0
+Photoshop,11917,False,0.0
+Tailwind,11917,False,0.0
+Microservices,11909,False,0.0
+PowerPoint,11908,False,0.0
+Spring Boot,11906,False,0.0
+Django,11899,False,0.0
+MongoDB,11841,False,0.0
+Node.js,11838,False,0.0
+Azure,11828,False,0.0
+React,11811,False,0.0
+LangChain,5162,False,0.0
+Prompt Engineering,5062,False,0.0
+YOLO,4827,False,0.0
+GANs,4815,False,0.0
+OpenCV,4803,False,0.0
+ASR,4788,False,0.0
+Image Classification,4761,False,0.0
+Computer Vision,4755,False,0.0
+Speech Recognition,4744,False,0.0
+CNN,4740,False,0.0
+Kubeflow,4730,False,0.0
+MLOps,4727,False,0.0
+BentoML,4726,False,0.0
+Data Science,4708,False,0.0
+Reinforcement Learning,4708,False,0.0
+Object Detection,4705,False,0.0
+Diffusion Models,4701,False,0.0
+MLflow,4691,False,0.0
+Time Series,4686,False,0.0
+Weights & Biases,4685,False,0.0
+Forecasting,4676,False,0.0
+TTS,4669,False,0.0
+Statistical Modeling,4634,False,0.0
+pgvector,1394,False,0.0
+TensorFlow,1381,False,0.0
+PyTorch,1378,False,0.0
+Deep Learning,1342,False,0.0
+Haystack,1333,False,0.0
+LlamaIndex,1308,False,0.0
+scikit-learn,1288,False,0.0
+Information Retrieval Systems,7,False,0.0
+Search Backend,5,False,0.0
+Text Encoders,5,False,0.0
+Content Matching,4,False,0.0
+Model Adaptation,4,False,0.0
+Ranking Systems,4,False,0.0
+Search & Discovery,4,False,0.0
+Vector Representations,4,False,0.0
+Indexing Algorithms,3,False,0.0
+Open-source ML libraries,3,False,0.0
+Search Infrastructure,3,False,0.0
+Workflow Orchestration,3,False,0.0
+Natural Language Processing,2,False,0.0
+Document Processing,1,False,0.0

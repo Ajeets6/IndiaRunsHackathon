@@ -1,0 +1,48 @@
+title,count,avg_title_score,avg_evidence_score,avg_core_skills,india_ratio,known_product_company_ratio,suggested_target_title
+Senior AI Engineer,4,23.0,17.575,8.0,1.0,0.5,True
+Lead AI Engineer,3,22.0,26.6,9.3333,1.0,1.0,True
+Staff Machine Learning Engineer,6,22.0,26.5167,8.8333,0.8333,0.5,True
+Senior Machine Learning Engineer,6,21.0,28.4333,7.8333,0.8333,0.8333,True
+Senior NLP Engineer,6,20.0,35.2667,9.1667,1.0,0.8333,True
+Senior Applied Scientist,4,20.0,22.725,7.5,1.0,1.0,True
+Search Engineer,23,19.0,18.4957,7.5652,0.8696,0.8696,True
+Recommendation Systems Engineer,26,19.0,17.3923,7.6154,0.9615,0.8077,True
+Applied ML Engineer,23,19.0,17.0348,7.7391,0.913,0.913,True
+AI Engineer,21,18.0,16.6333,8.0952,0.7619,0.8571,True
+Machine Learning Engineer,24,18.0,15.9208,7.6667,0.7917,0.7083,True
+NLP Engineer,14,17.0,17.4571,7.4286,1.0,0.8571,True
+Senior Software Engineer (ML),142,16.0,8.1676,4.669,0.8873,0.7676,True
+ML Engineer,167,15.0,8.0335,4.9641,0.8862,0.7006,True
+Senior Data Scientist,19,14.0,17.1579,7.8421,0.8947,1.0,True
+AI Research Engineer,153,12.0,8.515,4.817,0.915,0.7516,True
+Junior ML Engineer,131,12.0,8.0794,4.6031,0.9466,0.7481,True
+Data Scientist,145,12.0,7.9807,5.0828,0.9241,0.7379,True
+AI Specialist,130,10.0,8.1662,4.7462,0.9154,0.7769,False
+Senior Data Engineer,687,9.0,3.8672,2.3348,0.7671,0.4978,False
+Senior Software Engineer,653,8.0,3.785,2.2848,0.7443,0.4992,False
+Backend Engineer,704,7.0,3.8483,2.3438,0.7557,0.4901,False
+Data Engineer,744,7.0,3.7472,2.371,0.7366,0.4745,False
+Analytics Engineer,764,6.5,3.8202,2.3351,0.7552,0.5065,False
+Software Engineer,3450,6.0,4.2297,1.4768,0.7609,0.2852,False
+Computer Vision Engineer,132,4.0,8.0136,4.7652,0.9091,0.7197,False
+DevOps Engineer,2787,4.0,4.3215,1.2616,0.7506,0.2192,False
+QA Engineer,2682,4.0,4.3116,1.2409,0.7636,0.1939,False
+Cloud Engineer,2836,4.0,4.3107,1.238,0.7489,0.2176,False
+Frontend Engineer,2738,4.0,4.2801,1.2232,0.7228,0.214,False
+Data Analyst,728,3.0,3.8273,2.3352,0.7473,0.511,False
+Java Developer,2809,0.0,4.3655,1.2125,0.7451,0.2161,False
+.NET Developer,2788,0.0,4.3522,1.2148,0.7482,0.2174,False
+Mobile Developer,2757,0.0,4.3218,1.2165,0.7537,0.23,False
+Full Stack Developer,2873,0.0,4.3128,1.2534,0.741,0.2148,False
+Civil Engineer,5702,-8.0,1.9311,1.0784,0.7489,0.0,False
+Mechanical Engineer,5791,-8.0,1.8845,1.0168,0.7525,0.0,False
+Graphic Designer,5689,-12.0,1.9246,1.1009,0.7481,0.0,False
+Sales Executive,5713,-12.0,1.9231,1.0611,0.7476,0.0,False
+Customer Support,5750,-12.0,1.92,1.011,0.7583,0.0,False
+Marketing Manager,5524,-12.0,1.9115,0.9728,0.7498,0.0,False
+HR Manager,5830,-12.0,1.9108,0.9938,0.7473,0.0,False
+Accountant,5764,-12.0,1.9096,1.034,0.7401,0.0,False
+Business Analyst,5833,-12.0,1.8988,1.0225,0.7499,0.0,False
+Content Writer,5727,-12.0,1.8984,1.0152,0.7507,0.0,False
+Operations Manager,5744,-12.0,1.8853,1.0327,0.7523,0.0,False
+Project Manager,5754,-12.0,1.8811,0.9835,0.7475,0.0,False

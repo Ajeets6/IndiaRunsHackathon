@@ -1,0 +1,11 @@
+{
+  "candidates_seen": 100000,
+  "used_pandas": true,
+  "company_rows": 63,
+  "title_rows": 47,
+  "industry_rows": 24,
+  "skill_rows": 133,
+  "suggested_product_companies": 46,
+  "suggested_service_companies": 10,
+  "suggested_product_industries": 19
+}
