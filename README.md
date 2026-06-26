@@ -25,21 +25,22 @@ candidates.
 
 ## Methodology Summary
 
-Deterministic offline two-stage ranker for the Senior AI Engineer JD. Stage 1
-streams all 100K candidates and retrieves the strongest 1500 using role fit,
-core AI/search/retrieval skills, career-history evidence, product-company
+Deterministic offline two-stage ranker for the Senior AI Engineer JD. The JD is
+first converted into `rubric.yaml`, a structured ideal-candidate profile that
+defines what each resume is scored against. Stage 1 streams all 100K candidates
+and retrieves the strongest 1500 using rubric-derived signals: role fit, core
+AI/search/retrieval skills, career-history evidence, product-company
 background, India/location fit, Redrob availability signals, and optional
 precomputed dense similarity. Stage 2 reranks with capped structured
-components: senior ML/search/recommendation roles, production retrieval or
-ranking evidence, vector/hybrid search infrastructure, ranking evaluation
-metrics, skill trust from proficiency/duration/endorsements/assessments,
-product-company experience, and behavioral readiness. Honeypot-like profiles
-are not hard-coded by ID; they are penalized through generic trap checks such
-as non-tech keyword stuffing, expert skills with zero duration, inconsistent
-experience duration, pure research/no production evidence, CV/speech-only
-profiles, long inactivity, poor recruiter response, and long notice periods.
-Reasoning is generated deterministically from candidate JSON facts only, with
-no network calls, hosted APIs, local LLMs, or manual CSV edits during ranking.
+components rather than live embedding or LLM calls: senior ML/search roles,
+production retrieval/ranking evidence, vector/hybrid search infrastructure,
+ranking evaluation metrics, skill trust, product-company experience, and
+behavioral readiness. Honeypot-like profiles are not hard-coded by ID; they are
+penalized through generic trap checks such as non-tech keyword stuffing, expert
+skills with zero duration, inconsistent experience duration, pure research/no
+production evidence, CV/speech-only profiles, long inactivity, poor recruiter
+response, and long notice periods. Reasoning is generated deterministically
+from candidate JSON facts only.
 
 ## Pipeline
 
@@ -59,7 +60,7 @@ Honeypot handling happens during scoring through penalties.
 ## Files
 
 - `rank.py`: main offline ranker and deterministic reasoning generator.
-- `rubric.yaml`: JD-derived rubric and scoring intent.
+- `rubric.yaml`: JD-derived ideal-candidate profile and scoring rubric used as the comparison target.
 - `submission.csv`: generated top-100 ranked output.
 - `audit_submission.py`: local audit for ordering, uniqueness, candidate
   existence, and grounded reasoning.

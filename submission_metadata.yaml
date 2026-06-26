@@ -1,0 +1,93 @@
+# Redrob Hackathon — Submission Metadata Template
+#
+# Copy this file to your repo root as `submission_metadata.yaml` and fill it in.
+# The fields here should match what you submit via the portal at upload time.
+# Stage 3 review uses this file to verify your portal metadata.
+
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "AjGreat"  # Used in leaderboard and announcements
+
+primary_contact:
+  name: "Ajeet Singh"
+  email: "itachis6234@gmail.com"   # Used for all organizer communication
+  phone: "+91-8800257489"        # Used for top-50 / top-10 outreach
+
+team_members:
+  - name: "Ajeet Singh"
+    email: "itachis6234@gmail.com"
+    role: "ML Engineer"          # Optional, e.g. "Team Lead", "Backend", "Data"
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/Ajeets6/IndiaRunsHackathon"
+# Required. Must be reachable. Private repos OK if you can grant organizer
+# access at Stage 3 (the email to add will be communicated then).
+
+sandbox_link: "https://colab.research.google.com/drive/1IOUQ8per34G-lwpqhFXMk5G8A_XevNF3?usp=sharing"
+# Required. A working hosted environment where the ranker can be run on a small
+# candidate sample. See Section 10.5 of submission_spec.md for acceptable
+# platforms (HuggingFace Spaces, Streamlit Cloud, Replit, Colab, Docker, Binder).
+
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv --artifacts ./artifacts"
+# The single command that produces submission.csv from candidates.jsonl.
+# Should run end-to-end within 5 minutes on CPU with 16GB RAM and no network.
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "Ryzen 5 7600x"                    # Or: "AWS EC2 c5.4xlarge", "Local Linux box", etc.
+  cpu_cores: 6                                  # Number of CPU cores used
+  ram_gb: 16                                    # Available RAM in GB
+  python_version: "3.12.13"                      # python --version
+  os: "Windows 10"                              # Or "Ubuntu 22.04 LTS", etc.
+  uses_gpu_for_inference: false                 # Must be false — see compute constraints
+  has_network_during_ranking: false             # Must be false — no API calls during ranking
+  pre_computation_required: false               # true if you pre-compute embeddings or train models offline
+  pre_computation_time_minutes: 0               # Approximate, if applicable
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+# Transparency only — declared use is NOT penalized. Be honest. Stage 5 interview
+# may verify these declarations against your code; declarations that contradict
+# your code or your interview are flagged.
+ai_tools_used:
+  - "ChatGPT"
+
+ai_usage_summary: |
+  Used ChatGPT to review papers and summarize them, also used it for code debugging.
+
+# ============================================================================
+# Approach summary (optional but recommended)
+# ============================================================================
+methodology_summary: |
+  Deterministic offline two-stage ranker for the Senior AI Engineer JD. The JD
+  is first converted into rubric.yaml, a structured ideal-candidate profile that
+  defines what each resume is scored against. Stage 1 streams all 100K
+  candidates and retrieves the strongest 1500 using rubric-derived signals:
+  role fit, core AI/search/retrieval skills, career-history evidence,
+  product-company background, India/location fit, Redrob availability signals,
+  and optional precomputed dense similarity. Stage 2 reranks with capped
+  structured components rather than live embedding or LLM calls: senior
+  ML/search roles, production retrieval/ranking evidence, vector/hybrid search
+  infrastructure, ranking evaluation metrics, skill trust, product-company
+  experience, and behavioral readiness. Honeypot-like profiles are not
+  hard-coded by ID; they are penalized through generic trap checks such as
+  non-tech keyword stuffing, expert skills with zero duration, inconsistent
+  experience duration, pure research/no production evidence, CV/speech-only
+  profiles, long inactivity, poor recruiter response, and long notice periods.
+  Reasoning is generated deterministically from candidate JSON facts only.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true        # I have read submission_spec.md in full
+  code_is_original_work: true       # My code is my team's original work (using AI as a tool is fine)
+  no_collusion: true                # I have not coordinated my submission with other teams
+  honeypot_check_done: true        # OPTIONAL — set true if you explicitly checked for honeypots in your ranking
+  reproduction_tested: true         # I have tested that my reproduce_command runs end-to-end
