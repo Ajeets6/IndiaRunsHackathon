@@ -1,0 +1,375 @@
+{
+  "reasoning_non_empty": true,
+  "risk_candidates": [
+    {
+      "candidate_id": "CAND_0028793",
+      "components": {
+        "behavior": 23.29,
+        "behavior_multiplier": 1.0756,
+        "company": 17.0,
+        "dense": 0.0,
+        "education": 3.0,
+        "evidence": 22.6,
+        "experience": 16.8607,
+        "location": 9.5,
+        "penalty": 0.0,
+        "role": 25.65,
+        "skills": 17.8956
+      },
+      "flags": [
+        "long_notice"
+      ],
+      "rank": 27
+    },
+    {
+      "candidate_id": "CAND_0033861",
+      "components": {
+        "behavior": 6.33,
+        "behavior_multiplier": 0.9696,
+        "company": 17.0,
+        "dense": 0.0,
+        "education": 3.0,
+        "evidence": 38.7,
+        "experience": 13.9032,
+        "location": 8.0,
+        "penalty": 0.0,
+        "role": 30.5,
+        "skills": 31.0259
+      },
+      "flags": [
+        "low_recruiter_response"
+      ],
+      "rank": 28
+    },
+    {
+      "candidate_id": "CAND_0039754",
+      "components": {
+        "behavior": 33.0,
+        "behavior_multiplier": 1.105,
+        "company": 12.8,
+        "dense": 0.0,
+        "education": 2.0,
+        "evidence": 38.7,
+        "experience": -5.88,
+        "location": 9.5,
+        "penalty": 11.0,
+        "role": 27.0,
+        "skills": 24.9895
+      },
+      "flags": [
+        "experience_duration_mismatch_gt5"
+      ],
+      "rank": 33
+    },
+    {
+      "candidate_id": "CAND_0083307",
+      "components": {
+        "behavior": 18.4433,
+        "behavior_multiplier": 1.0453,
+        "company": 15.0,
+        "dense": 0.0,
+        "education": 1.6,
+        "evidence": 27.4,
+        "experience": 14.93,
+        "location": 8.0,
+        "penalty": 0.0,
+        "role": 25.65,
+        "skills": 25.5985
+      },
+      "flags": [
+        "long_notice"
+      ],
+      "rank": 35
+    },
+    {
+      "candidate_id": "CAND_0094759",
+      "components": {
+        "behavior": 11.6683,
+        "behavior_multiplier": 1.0029,
+        "company": 10.6,
+        "dense": 0.0,
+        "education": 0.6,
+        "evidence": 38.7,
+        "experience": 10.3821,
+        "location": 11.0,
+        "penalty": 0.0,
+        "role": 31.0,
+        "skills": 25.2824
+      },
+      "flags": [
+        "low_recruiter_response"
+      ],
+      "rank": 38
+    },
+    {
+      "candidate_id": "CAND_0086151",
+      "components": {
+        "behavior": 19.4,
+        "behavior_multiplier": 1.0513,
+        "company": 15.0,
+        "dense": 0.0,
+        "education": 0.5,
+        "evidence": 21.7,
+        "experience": 15.3859,
+        "location": 9.5,
+        "penalty": 0.0,
+        "role": 25.65,
+        "skills": 25.1609
+      },
+      "flags": [
+        "long_notice"
+      ],
+      "rank": 40
+    },
+    {
+      "candidate_id": "CAND_0061265",
+      "components": {
+        "behavior": 20.3967,
+        "behavior_multiplier": 1.0575,
+        "company": 17.0,
+        "dense": 0.0,
+        "education": 2.0,
+        "evidence": 19.0,
+        "experience": 16.4511,
+        "location": 11.0,
+        "penalty": 0.0,
+        "role": 25.65,
+        "skills": 20.0391
+      },
+      "flags": [
+        "long_notice"
+      ],
+      "rank": 41
+    },
+    {
+      "candidate_id": "CAND_0007412",
+      "components": {
+        "behavior": 21.78,
+        "behavior_multiplier": 1.0661,
+        "company": 17.0,
+        "dense": 0.0,
+        "education": 3.0,
+        "evidence": 23.2,
+        "experience": 16.4511,
+        "location": 13.0,
+        "penalty": 4.0,
+        "role": 25.65,
+        "skills": 14.1506
+      },
+      "flags": [
+        "long_notice",
+        "short_tenure_hopping"
+      ],
+      "rank": 42
+    },
+    {
+      "candidate_id": "CAND_0070398",
+      "components": {
+        "behavior": 19.305,
+        "behavior_multiplier": 1.0507,
+        "company": 10.6,
+        "dense": 0.0,
+        "education": 3.0,
+        "evidence": 16.9,
+        "experience": 16.8607,
+        "location": 9.5,
+        "penalty": 0.0,
+        "role": 24.65,
+        "skills": 29.1356
+      },
+      "flags": [
+        "long_notice"
+      ],
+      "rank": 48
+    },
+    {
+      "candidate_id": "CAND_0060072",
+      "components": {
+        "behavior": 9.7583,
+        "behavior_multiplier": 0.991,
+        "company": 10.6,
+        "dense": 0.0,
+        "education": 3.0,
+        "evidence": 28.2,
+        "experience": 12.1757,
+        "location": 9.5,
+        "penalty": 0.0,
+        "role": 31.0,
+        "skills": 29.128
+      },
+      "flags": [
+        "low_recruiter_response"
+      ],
+      "rank": 60
+    },
+    {
+      "candidate_id": "CAND_0092278",
+      "components": {
+        "behavior": -0.085,
+        "behavior_multiplier": 0.9295,
+        "company": 15.0,
+        "dense": 0.0,
+        "education": 2.0,
+        "evidence": 39.2,
+        "experience": 16.8607,
+        "location": 13.0,
+        "penalty": 0.0,
+        "role": 29.5,
+        "skills": 24.6159
+      },
+      "flags": [
+        "long_inactive",
+        "low_recruiter_response"
+      ],
+      "rank": 67
+    },
+    {
+      "candidate_id": "CAND_0027801",
+      "components": {
+        "behavior": 18.73,
+        "behavior_multiplier": 1.0471,
+        "company": 12.8,
+        "dense": 0.0,
+        "education": 1.1,
+        "evidence": 20.4,
+        "experience": 16.4511,
+        "location": 11.0,
+        "penalty": 0.0,
+        "role": 23.65,
+        "skills": 17.5694
+      },
+      "flags": [
+        "long_notice"
+      ],
+      "rank": 82
+    },
+    {
+      "candidate_id": "CAND_0006557",
+      "components": {
+        "behavior": 18.6333,
+        "behavior_multiplier": 1.0465,
+        "company": 8.4,
+        "dense": 0.0,
+        "education": 1.6,
+        "evidence": 17.2,
+        "experience": 14.4336,
+        "location": 9.5,
+        "penalty": 0.0,
+        "role": 23.65,
+        "skills": 27.4621
+      },
+      "flags": [
+        "long_notice"
+      ],
+      "rank": 86
+    },
+    {
+      "candidate_id": "CAND_0016163",
+      "components": {
+        "behavior": 21.225,
+        "behavior_multiplier": 1.0627,
+        "company": 15.0,
+        "dense": 0.0,
+        "education": 1.1,
+        "evidence": 14.2,
+        "experience": 16.6885,
+        "location": 11.0,
+        "penalty": 0.0,
+        "role": 25.65,
+        "skills": 14.2616
+      },
+      "flags": [
+        "long_notice"
+      ],
+      "rank": 87
+    },
+    {
+      "candidate_id": "CAND_0009691",
+      "components": {
+        "behavior": 18.585,
+        "behavior_multiplier": 1.0462,
+        "company": 12.8,
+        "dense": 0.0,
+        "education": 0.6,
+        "evidence": 16.9,
+        "experience": 14.93,
+        "location": 9.5,
+        "penalty": 0.0,
+        "role": 25.65,
+        "skills": 21.052
+      },
+      "flags": [
+        "long_notice"
+      ],
+      "rank": 90
+    },
+    {
+      "candidate_id": "CAND_0074225",
+      "components": {
+        "behavior": 22.5033,
+        "behavior_multiplier": 1.0706,
+        "company": 12.8,
+        "dense": 0.0,
+        "education": 1.1,
+        "evidence": 18.4,
+        "experience": 2.2627,
+        "location": 9.5,
+        "penalty": 0.0,
+        "role": 24.3,
+        "skills": 26.9197
+      },
+      "flags": [
+        "long_notice"
+      ],
+      "rank": 91
+    },
+    {
+      "candidate_id": "CAND_0010257",
+      "components": {
+        "behavior": 23.54,
+        "behavior_multiplier": 1.0771,
+        "company": 15.0,
+        "dense": 0.0,
+        "education": 1.1,
+        "evidence": 8.9,
+        "experience": 16.1518,
+        "location": 13.0,
+        "penalty": 0.0,
+        "role": 20.65,
+        "skills": 17.326
+      },
+      "flags": [
+        "long_notice"
+      ],
+      "rank": 99
+    }
+  ],
+  "runtime_seconds": 15.997,
+  "scores_non_increasing": true,
+  "stage1_candidates_reranked": 1500,
+  "top100_component_averages": {
+    "behavior": 24.5359,
+    "behavior_multiplier": 1.0796,
+    "company": 13.884,
+    "dense": 0.0,
+    "education": 1.873,
+    "evidence": 20.776,
+    "experience": 13.5013,
+    "location": 9.53,
+    "penalty": 0.15,
+    "role": 25.5615,
+    "skills": 21.2489
+  },
+  "top100_flag_counts": {
+    "experience_duration_mismatch_gt5": 1,
+    "long_inactive": 1,
+    "long_notice": 12,
+    "low_recruiter_response": 4,
+    "short_tenure_hopping": 1
+  },
+  "top_rows": 100,
+  "total_candidates_seen": 100000,
+  "unique_candidate_ids": 100,
+  "unique_ranks": 100,
+  "unique_reasoning_strings": 100
+}
