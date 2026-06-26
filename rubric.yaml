@@ -1,0 +1,61 @@
+job:
+  title: "Senior AI Engineer - Founding Team"
+  company: "Redrob AI"
+  location_preference:
+    primary: ["Pune", "Noida"]
+    acceptable: ["Delhi NCR", "Gurgaon", "Gurugram", "Hyderabad", "Mumbai", "Bangalore", "Bengaluru"]
+    country: "India"
+  experience_years:
+    target_min: 5
+    target_max: 9
+    ideal_min: 6
+    ideal_max: 8
+
+ideal_candidate:
+  summary: >
+    Senior hands-on AI or ML engineer who has shipped production retrieval,
+    ranking, recommendation, semantic search, vector search, or LLM systems
+    for real users. The strongest candidate has product-company experience,
+    strong Python, practical evaluation discipline, and clear availability.
+  must_have:
+    - "Production embeddings-based retrieval or semantic search"
+    - "Vector or hybrid search infrastructure such as FAISS, OpenSearch, Elasticsearch, Pinecone, Qdrant, Milvus, or Weaviate"
+    - "Hands-on Python and production code ownership"
+    - "Ranking evaluation knowledge such as NDCG, MRR, MAP, recall@K, or online A/B metrics"
+  strong_positive:
+    - "Learning-to-rank, recommendation systems, recruiter search, marketplace search, or matching systems"
+    - "LLM fine-tuning or reranking used pragmatically with latency tradeoffs"
+    - "Product-company, SaaS, fintech, e-commerce, AI/ML, or marketplace background"
+    - "Index refresh, embedding drift monitoring, latency, rollback, and evaluation infrastructure"
+    - "Open to work, recent activity, high recruiter response rate, short notice period, relocation willingness"
+  negative:
+    - "Non-technical current role with many AI keywords but little career evidence"
+    - "Pure research profile without production deployment"
+    - "Only consulting/services-company background with no product-company exposure"
+    - "Computer vision, speech, or robotics only, without NLP/IR/retrieval evidence"
+    - "Long inactivity, poor recruiter response, long notice period, or unavailable profile"
+  trap_checks:
+    - "Expert skill with zero months of use"
+    - "Profile experience inconsistent with career-history durations"
+    - "Keyword stuffing in unrelated titles"
+    - "Impossible dates or future activity"
+
+scoring:
+  stage_1:
+    purpose: "Fast retrieval of the strongest 1500 candidates from the full pool."
+    signals:
+      - "role and seniority"
+      - "core retrieval/ranking skills"
+      - "career-history evidence"
+      - "location and product-company fit"
+      - "availability behavior"
+      - "optional precomputed dense similarity"
+  stage_2:
+    purpose: "Heavier deterministic reranking with capped components and anti-trap penalties."
+    output: "Top 100 rows with candidate_id, rank, score, and fact-grounded reasoning."
+
+optional_artifacts:
+  dense_similarity_csv:
+    path: "artifacts/dense_similarity.csv"
+    format: "candidate_id,similarity"
+    note: "Generated offline only. rank.py never calls an embedding model or network service."
